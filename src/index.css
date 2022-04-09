@@ -29,8 +29,56 @@ body {
 }
 
 .rqg-box {
-  background-color: white;
-  width: 800px;
-  height: 600px;
+  background-color: lightpink;
+  width: 650px;
+  border-radius: 25px;
 }
 
+.song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-info img{
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.song-info h2{
+  font-family: 'Poppins';
+  font-size: 35px;
+  margin-bottom: -15px;
+}
+
+.song-info h3{
+  color: black;
+  margin-bottom: -10px;
+}
+
+.song-info p{
+  width: 600px;
+  color: darkgoldenrod;
+  font-family: 'Dosis';
+  font-size: 20px;
+}
+
+.song-info a{
+  color: red;
+  font-size: 30px;
+}
+
+.another {
+  background-color: white;
+  color: red;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
