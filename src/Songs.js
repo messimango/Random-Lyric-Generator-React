@@ -12,7 +12,10 @@ const Songs = () => {
         setIndex(randomNumber);
     }
 
-
+    const playSound = () => {
+        let audio = new Audio("/another.mp3")
+        audio.play();
+    }
 
     return <div className="song-info">
         <button className="another" onClick={randomSong} >Another One</button>
