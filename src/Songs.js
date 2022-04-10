@@ -18,7 +18,7 @@ const Songs = () => {
     }
 
     return <div className="song-info">
-        <button className="another" onClick={randomSong} >Another One</button>
+        <button className="another" onClick={() => {playSound(); randomSong();}}>Another One</button>
 
         <img src={image} alt={artist}></img>
         <h2>{artist}</h2>
